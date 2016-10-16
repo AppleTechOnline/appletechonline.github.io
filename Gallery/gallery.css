@@ -1,0 +1,28 @@
+body {
+    background-image: url(background.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center
+}
+.responsive {
+    width: 24.99999%;
+}
+.img {
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.img:hover {
+    border: 3px solid #fff;
+}
+.title {
+    color: white;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 90px;
+    width: 300px;
+}
+.title:hover {
+    color: #777;
+}
