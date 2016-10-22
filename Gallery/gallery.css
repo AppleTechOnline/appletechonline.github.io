@@ -1,5 +1,5 @@
 body {
-    background-image: url(background.png);
+    background-image: url(background.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center
@@ -8,13 +8,15 @@ body {
     width: 24.99999%;
 }
 .img {
-    border: 1px solid #000;
+    border: 1px solid #477874;
     border-radius: 10px;
     margin-left: 10px;
     margin-bottom: 10px;
+    opacity: 0.6;
+    transition-duration: 0.2s;
 }
 .img:hover {
-    border: 3px solid #fff;
+    opacity: 1;
 }
 .title {
     color: white;
